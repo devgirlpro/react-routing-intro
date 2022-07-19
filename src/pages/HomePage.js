@@ -1,0 +1,12 @@
+import React from "react";
+const imgURL =
+  "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/react-routing/home.gif";
+
+export default function HomePage() {
+  return (
+    <div>
+      <h1>HomePage</h1>
+      <img src={imgURL} alt="home gif" className="page-img" />
+    </div>
+  );
+}
